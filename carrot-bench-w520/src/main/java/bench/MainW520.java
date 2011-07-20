@@ -50,6 +50,7 @@ public class MainW520 {
 			Thread thread = new Thread(task, "# task");
 			thread.start();
 			log.debug("started : {}", thread);
+			sleep(100);
 		}
 	}
 

@@ -57,7 +57,7 @@ public class MainW520 {
 	static class Task implements Runnable {
 
 		private long saved;
-		private long count;
+		private volatile long count;
 
 		@Override
 		public void run() {
